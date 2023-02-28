@@ -34,37 +34,37 @@ print(x2)
 }
 
 
-// import Foundation
-// import Glibc
-// var cx = 0.00021
-// var bx = 0.19
-// var px = 0.26
-// print("Foreign currency converter to USD and accumulator")
-// print("Please enter amount of Columbian Pesos")
-// var c = Double(readLine()!)!
-// print("Please enter amount of Brazilian Reals")
-// var b = Double(readLine()!)!
-// print("Please enter amount of Peruvian Soles")
-// var p = Double(readLine()!)!
-// print("US Dollars = $\(c*cx+b*bx+p*px)")
+import Foundation
+import Glibc
+var cx = 0.00021
+var bx = 0.19
+var px = 0.26
+print("Foreign currency converter to USD and accumulator")
+print("Please enter amount of Columbian Pesos")
+var c = Double(readLine()!)!
+print("Please enter amount of Brazilian Reals")
+var b = Double(readLine()!)!
+print("Please enter amount of Peruvian Soles")
+var p = Double(readLine()!)!
+print("US Dollars = $\(c*cx+b*bx+p*px)")
 
 
-// import Foundation
-// import Glibc
-// var n = 0
-// for n in 1...100{
-//   if n % 3 == 0 && n % 5 != 0{
-//     print("Fizz")
-// }
-//   if n % 5 == 0 && n % 3 == 0{
-//     print("FizzBuzz")
-//   }
-//   if n % 5 == 0 && n % 3 != 0{
-//     print("Buzz")
-//   }
-//    else{
-//     if n % 3 != 0{
-//       print(n)
-//     }
-//   }
-// }
+import Foundation
+import Glibc
+var n = 0
+for n in 1...100{
+  if n % 3 == 0 && n % 5 != 0{
+    print("Fizz")
+}
+  if n % 5 == 0 && n % 3 == 0{
+    print("FizzBuzz")
+  }
+  if n % 5 == 0 && n % 3 != 0{
+    print("Buzz")
+  }
+   else{
+    if n % 3 != 0{
+      print(n)
+    }
+  }
+}
